@@ -30,7 +30,7 @@ contract AstraNovaNFT is Initializable, ERC1155Upgradeable, OwnableUpgradeable, 
         _setURI(newuri);
     }
 
-    function uri(uint256 id) public view override  returns (string memory) {
+    function uri(uint256 id) public view override returns (string memory) {
         string memory _uri = super.uri(id);
         return string(abi.encodePacked(_uri, "/", Strings.toString(id), ".json"));
     }
