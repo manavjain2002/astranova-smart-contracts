@@ -18,6 +18,8 @@
   "homepage": "https://github.com/manavjain2002/astranova-smart-contracts#readme",
   "dependencies": {
     "@openzeppelin/contracts-upgradeable": "^5.0.1",
+    "@openzeppelin/hardhat-upgrades": "^3.0.2",
+    "dotenv": "^16.3.1",
     "ethers": "^6.10.0",
     "hardhat": "^2.19.4"
   },
